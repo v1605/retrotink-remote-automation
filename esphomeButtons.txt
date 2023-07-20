@@ -1,3 +1,4 @@
+button:
 	- platform: template
 		name: "Power"
 		on_press:
