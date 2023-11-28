@@ -13,4 +13,4 @@ with open('necStandardDisneyCodes.csv', newline='') as csvfile:
         print('\t\ton_press:')
         print('\t\t\t- remote_transmitter.transmit_nec:')
         print('\t\t\t\taddress: ' + row[1])
-        print('\t\t\t\taddress: ' + row[2])
+        print('\t\t\t\tcommand: ' + row[2])
